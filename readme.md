@@ -27,7 +27,7 @@ A pasta `agents/` armazena os prompts de sistema e as regras de atuação para c
 - Contém o arquivo `agent-rules.md`, que consolida as regras globais (como a Verificação Prévia Obrigatória) e o foco específico de cada papel.
 - Cada agente deve ser inicializado com as instruções contidas em seu respectivo arquivo dentro desta pasta, garantindo que atuem sempre de acordo com o fluxo e a metodologia do repositório.
 
-## Diretório de Agentes (`docs/`)
+## Diretório de Documentção (`docs/`)
 
 A pasta `docs/` armazena 03 arquivos manual.md que vai conter o manual do sistema completo. sera um dos ultimos arquivos a serem feitos, o implantar.md com o manual de tudo que tem de ser feito para implantar com um checklist e o testlocal.md ensinando como fazer o teste local e como zerar o bd para implantar.
 
