@@ -7,6 +7,7 @@ Este repositório segue uma metodologia baseada em Agile, Scrum, Desenvolvimento
 ## Documentos do projeto
 
 - README.md — guia do repositório.
+- prompt.md — base obrigatória para a criação de qualquer prompt.
 - plan.md — documento mestre do projeto.
 - architecture.md — arquitetura técnica, módulos, APIs, banco, integrações e padrões.
 - design.md — UI/UX, design system, layout, tipografia, bibliotecas CSS e componentes.
@@ -15,6 +16,10 @@ Este repositório segue uma metodologia baseada em Agile, Scrum, Desenvolvimento
 - pendencias.md — bugs, dívidas técnicas e melhorias futuras.
 - decisions.md — registro das decisões arquitetônicas (ADR).
 - git.md — fluxo e padronização do Git.
+
+## Diretrizes de Interação
+
+- **Uso do `prompt.md`:** É estritamente obrigatório utilizar o arquivo `prompt.md` como modelo/base para qualquer prompt a ser criado ou enviado aos agentes neste projeto.
 
 ## Fluxo obrigatório
 
