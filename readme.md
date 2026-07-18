@@ -17,6 +17,9 @@ Este repositório segue uma metodologia baseada em Agile, Scrum, Desenvolvimento
 - decisions.md — registro das decisões arquitetônicas (ADR).
 - git.md — fluxo e padronização do Git.
 
+> **Nota sobre o Projeto Modelo (Placeholders):** 
+> Alguns arquivos deste repositório modelo (como `README.md`, `plan.md`, `sprints.md`, `architecture.md`, `design.md` e `tasks.md`) podem estar inicialmente vazios. Eles servem como um lembrete estrutural de que precisam ser criados e preenchidos sob demanda durante o ciclo de vida do projeto, utilizando os agentes e o arquivo `prompt.md` como base.
+
 ## Diretório de Agentes (`agents/`)
 
 A pasta `agents/` armazena os prompts de sistema e as regras de atuação para cada especialista (agente) envolvido no projeto.
