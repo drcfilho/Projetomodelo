@@ -17,6 +17,13 @@ Este repositório segue uma metodologia baseada em Agile, Scrum, Desenvolvimento
 - decisions.md — registro das decisões arquitetônicas (ADR).
 - git.md — fluxo e padronização do Git.
 
+## Diretório de Agentes (`agents/`)
+
+A pasta `agents/` armazena os prompts de sistema e as regras de atuação para cada especialista (agente) envolvido no projeto.
+- Contém os arquivos de persona para cada especialista (ex: `product-owner.md`, `scrum-master.md`, `software-architect.md`, `frontend.md`, `backend.md`, etc.).
+- Contém o arquivo `agent-rules.md`, que consolida as regras globais (como a Verificação Prévia Obrigatória) e o foco específico de cada papel.
+- Cada agente deve ser inicializado com as instruções contidas em seu respectivo arquivo dentro desta pasta, garantindo que atuem sempre de acordo com o fluxo e a metodologia do repositório.
+
 ## Diretrizes de Interação
 
 - **Uso do `prompt.md`:** É estritamente obrigatório utilizar o arquivo `prompt.md` como modelo/base para qualquer prompt a ser criado ou enviado aos agentes neste projeto.
